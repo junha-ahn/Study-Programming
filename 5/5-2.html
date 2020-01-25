@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>같은 숫자는 싫어</title>
+</head>
+<body>
+    
+    <script>
+        const foo = (arr) => {
+            //새 배열 반환
+            return arr.filter((num, i) => num !== arr[i+1])
+        }
+        console.log(foo([1,2,3,3,3,3,4]))
+    </script>
+</body>
+</html>

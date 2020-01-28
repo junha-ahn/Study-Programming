@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    // function dayCheck(a,b){
+    // const days = ['SUN','MON', 'TUE', 'WEN', 'TUR', 'FRI', 'SAT']
+    // const date = new Date(2016, a-1, b).getDay()
+    // console.log(date)
+    // return days[date]
+    // }
+
+    function dayCheck(a,b){
+        const date = new Date(2016, (a-1), b).toDateString()
+        console.log(date)
+        return date.slice(0,3).toUpperCase()
+    }
+    console.log(dayCheck(1,1))
+
+ 
+    </script>
+    
+</body>
+</html>

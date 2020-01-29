@@ -26,11 +26,14 @@
             }
 
             const max = Math.max(...score)
-            for (let i = 0; i < 3; i++) {
-                if (score[i] === max) {
-                    answer.push(i + 1)
-                }
-            }
+            // for (let i = 0; i < 3; i++) {
+            //     if (score[i] === max) {
+            //         answer.push(i + 1)
+            //     }
+            // }
+            score.forEach((v,i) => {
+                if(v === max) answer.push(i+1)
+            })
 
             return answer
         }

@@ -1,10 +1,12 @@
 # Study-Min
 
-하루 한 문제
+하루 한(?) 문제
 
 ## 프로세스
 
-1. `Projects -> 문제집` 에 `To do` 참고
+-  `Projects` -> [문제집](https://github.com/junha-ahn/Study-Min/projects/1) 에 `To do` 참고
+
+1. 문제 선택 후, `issue` 작성 
 
 2. `issue/<이슈 번호>` 네이밍을 가진 브랜치 생성. 이슈번호에 해당하는 폴더 생성. ( `<문제번호>.ext` 네이밍을 가진 파일 생성 권장 )
 

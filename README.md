@@ -1,4 +1,4 @@
-# Study-Min
+# Study-Programing
 
 하루 한(?) 문제
 

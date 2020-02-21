@@ -11,4 +11,4 @@ console.log(sum([1,2]))
 function fn(arr) {
     return arr.length === 0 ? 0 : arr[0] + fn(arr.slice(1))
   }
-console.log(fn([1, 2, 3]));
+console.log(fn([1, 2, 3]))

@@ -13,9 +13,7 @@
 const foo = (x,n) => {
     const arr = new Array()
     arr.length = n
-    for(let i = 0; i < n; i++){
-        arr.fill(x)
-    }
+    arr.fill(x)
     return arr.map((e,i) => e * (i+1))
 }
 console.log(foo(2,5))

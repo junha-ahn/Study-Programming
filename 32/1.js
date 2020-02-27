@@ -1,14 +1,11 @@
-function star(){
-    let result = ''
-    for(let i = 1; i <= 9; i ++){
-        for(let j = )
-        for(let k = 1; k <= i; j ++){
-            result += '*'
-        }
 
-    }
-    return result
-
+const star = (n) => {
+for(let i = 0; i < n; i ++){
+    console.log(" ".repeat(n - (i+1)) + "*".repeat(i*2 + 1))
+}
+for(let j = n-1; j >= 1; j--){
+    console.log(" ".repeat(n-j)+"*".repeat(j*2-1))
+}
 }
 
-console.log(star())
+star(5)

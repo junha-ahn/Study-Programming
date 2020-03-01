@@ -1,17 +1,6 @@
-const _max = () => {
-    const a = 3
-    const b = 2
-    const c = 4
-    let max = a
+const a = 1, b = 2, c = 3
+const arr = [1,2,3]
 
-    if(b > max) max = b
-    if(c > max) max = c
-    
-    return max
-
-// return Math.max(a,b,c)
-
-
-}
-
-console.log(_max())
+console.log(Math.max(a,b,c))
+console.log(Math.max.call(null, a,b,c))
+console.log(Math.max.apply(null, arr))

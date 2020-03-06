@@ -1,11 +1,12 @@
-// const fn = new Promise((resolve, reject) => {
-//     setTimeout(() => resolve('result'), 2000)
-//  })
 
-//  fn.then( message => {
-//      console.log('result:', message)
-//  }) 
-
-(() => {
-
+(async () => {
+  const fn = () => {
+      return new Promise((resolve, reject) => {
+          setTimeout(()=>{
+              resolve('result')
+          },2000)
+      })
+  }
+  const result = await fn()
+  console.log(result)
 })()

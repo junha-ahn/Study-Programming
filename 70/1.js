@@ -11,6 +11,7 @@ let node = {
   }, 
   type = 'Literal',
   name = 5;
-  ({type: type} = node)
+  // ({type: type} = node)
+({type} = node)
  console.log(type)
 // 2번. destructuring 을 이용해서 node의 type을 type 변수에 담아보세요

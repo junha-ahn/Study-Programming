@@ -2,6 +2,9 @@
 
 하루 한(?) 문제
 
+- 문제 출제자(@junha-ahn)는 당일 학습 내용을 문제로 이슈에 등록한다.
+- @Lilian-Kim은 이슈에 등록된 문제를 풀고 push 한다
+
 ## 프로세스
 
 -  `Projects` -> [문제집](https://github.com/junha-ahn/Study-Min/projects/1) 에 `To do` 참고
